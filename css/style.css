@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5;
+    font-family: 'Albert Sans', sans-serif;
+    background-image: url("../images/background.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 1000px;
+    background-attachment: fixed;
+}
