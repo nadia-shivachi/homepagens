@@ -2,7 +2,7 @@
 ![Logo imienne](images/Nadia_transparent.png)
 ## Page with some information about me.
 ### DEMO
-Link: https://nadia-shivachi.github.io/homepagens/
+Link: https://nadia-shivachi.github.io/nadia_shivachi_page/
 
 ### Agenda
 On this page you can read *a little more* about:
