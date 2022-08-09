@@ -1,4 +1,5 @@
 # NADIA SHIVACHI
+![Logo imienne](images/share_Nadia.png)
 ## Page with some information about me.
 ### DEMO
 Link: https://nadia-shivachi.github.io/homepagens/
@@ -12,4 +13,14 @@ On this page you can read *a little more* about:
 - my professional experience
 - my present life
 
-best regards, **Nadia Shivachi**
+### Technologies
+The page was written with:
+- HTML
+- CSS
+- JavaScript
+
+---------
+
+best regards,
+
+**Nadia Shivachi**
