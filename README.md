@@ -1,5 +1,5 @@
 # NADIA SHIVACHI
-![Logo imienne](images/share_Nadia.png)
+![Logo imienne](images/Nadia_transparent.png)
 ## Page with some information about me.
 ### DEMO
 Link: https://nadia-shivachi.github.io/homepagens/
