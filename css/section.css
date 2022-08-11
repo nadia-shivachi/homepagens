@@ -32,3 +32,18 @@
 .section__span {
     text-decoration: underline;
 }
+
+.section__image {
+    border-radius: 20px;
+    box-shadow: 5px -5px 5px 0px #E098A4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    box-shadow: 5px -5px 5px 0px #07818198;
+    object-fit: cover;
+}
+
+.section__image:hover {
+    box-shadow: 5px -5px 5px 0px #E098A4;
+}
