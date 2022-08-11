@@ -9,7 +9,7 @@
     background-color: #e098a4;
 }
 
-.section__div {
+.section__button {
     background-color: rgba(228, 27, 27, 0.497);
     color: black;
     width: 400px;
@@ -20,17 +20,14 @@
     max-width: 100%;
     font-style: italic;
     text-align: center;
+    border-radius: 20px;
 }
 
-.section__div:hover {
+.section__button:hover {
     background-color: rgba(228, 27, 27, 0.497);
     width: 420px;
     height: 40px;
     font-weight: bold;
-}
-
-.section__span {
-    text-decoration: underline;
 }
 
 .section__image {
