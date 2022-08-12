@@ -44,3 +44,11 @@
 .section__image:hover {
     box-shadow: 5px -5px 5px 0px #E098A4;
 }
+
+.section__div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    justify-content: center;
+    font-style: italic;
+}
