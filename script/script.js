@@ -2,7 +2,6 @@
   const welcome = () => {
     console.log("Hej! strona o mnie. Zapraszam do zapoznania się :)");
   };
-  welcome();
 
   const photoChange = () => {
     const buttonElement = document.querySelector(".js-button");
@@ -14,5 +13,11 @@
       imageElement.src = imageElement.src == photo1 ? photo2 : photo1;
     });
   };
-  photoChange();
+
+  const init = () => {
+    welcome();
+    photoChange();
+  };
+
+  init();
 }
