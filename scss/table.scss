@@ -1,0 +1,31 @@
+@use "./reset";
+
+.table {
+  border-collapse: collapse;
+  max-width: 100%;
+
+  &__caption {
+    text-align: right;
+    caption-side: bottom;
+    font-style: italic;
+  }
+
+  &__cell {
+    border: 1px solid #e098a4;
+    padding: 12px;
+    text-align: center;
+
+    &--header {
+      background-color: #e098a488;
+      border: 1px solid white;
+
+      &&:hover {
+        background: #07818198;
+      }
+    }
+  }
+  
+  .table__row:hover {
+    background: #07818198;
+  }
+}

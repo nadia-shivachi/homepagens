@@ -1,10 +1,59 @@
-.header {
-    margin-top: 30px;
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-.header__heading {
-    color: #faebd7;
-    background-color: #e098a4;
-    text-align: center;
-    border-radius: 20px;
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
+
+body {
+  max-width: 1200px;
+  height: 100%;
+  line-height: 1.5;
+  font-family: "Albert Sans", sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  margin-top: 30px;
+}
+.header__heading {
+  color: #faebd7;
+  background-color: #e098a4;
+  text-align: center;
+  border-radius: 20px;
+}/*# sourceMappingURL=header.css.map */

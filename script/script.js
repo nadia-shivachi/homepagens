@@ -3,7 +3,7 @@
     console.log("Hej! strona o mnie. Zapraszam do zapoznania się :)");
   };
 
-  const photoChange = () => {
+  const changePhoto = () => {
     const buttonElement = document.querySelector(".js-button");
     const imageElement = document.querySelector(".js-image");
     const photo1 = "https://i.postimg.cc/JnCDkf3B/IMG-20160831-173342.jpg";
@@ -16,7 +16,7 @@
 
   const init = () => {
     welcome();
-    photoChange();
+    changePhoto();
   };
 
   init();
