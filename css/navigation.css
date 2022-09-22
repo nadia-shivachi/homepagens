@@ -64,9 +64,6 @@ table {
   display: none;
 }
 .nav__item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 0 30px;
   font-size: 1.6rem;
   text-transform: uppercase;
