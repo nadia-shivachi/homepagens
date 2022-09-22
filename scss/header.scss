@@ -1,12 +1,38 @@
-@use "./reset";
+@import "./reset";
+@import "./colors";
 
 .header {
-  margin-top: 30px;
+  position: relative;
+  height: 330px;
+  background-image: url(/./images/norway-g09c6b3c29_640.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
-  &__heading {
-    color: #faebd7;
-    background-color: #e098a4;
-    text-align: center;
-    border-radius: 20px;
-  }
+.header__bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: $secondary-color;
+}
+
+.header__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: $light-white;
+}
+
+.header__heading {
+  margin-bottom: 5px;
+  color: $light-white;
+  text-shadow: 3px 3px 5px $secondary-special;
+}
+
+.header__heading--color {
+  text-transform: uppercase;
+  color: $secondary-special;
+  text-shadow: 3px 3px 5px $light-white;
 }

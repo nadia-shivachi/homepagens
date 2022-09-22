@@ -1,8 +1,11 @@
-@use "./reset";
+@import "./reset";
+@import "./colors";
 
 .table {
-  border-collapse: collapse;
+  margin: 0 auto;
   max-width: 100%;
+  min-width: 500px;
+  font-size: 1.6rem;
 
   &__caption {
     text-align: right;
@@ -11,21 +14,14 @@
   }
 
   &__cell {
-    border: 1px solid #e098a4;
-    padding: 12px;
+    padding: 15px;
     text-align: center;
+    border: 1px solid $secondary-special;
 
     &--header {
-      background-color: #e098a488;
-      border: 1px solid white;
-
-      &&:hover {
-        background: #07818198;
-      }
+      border: 1px solid $pure-white;
+      color: $pure-white;
+      background-color: $secondary-color;
     }
-  }
-  
-  .table__row:hover {
-    background: #07818198;
   }
 }

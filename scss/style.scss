@@ -1,8 +1,52 @@
-@use "./reset";
+@import "./reset";
+@import "./colors";
 
+body {
+  background-color: $bgcolor;
+}
 
-// background-image: url("../images/background.png");
-// background-repeat: repeat-y;
-// background-position: center;
-// background-size: 1000px;
-// background-attachment: fixed;
+.main {
+  margin: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .nav__items {
+    display: block;
+  }
+
+  .header {
+    height: 400px;
+    background-image: url(/./images/norway-g6ec0d7579_1920.jpg);
+  }
+
+  .header__heading {
+    font-size: 3.6rem;
+  }
+
+  .heading__text {
+    font-size: 1.8rem;
+  }
+  .nav__button {
+    display: none;
+  }
+  .header__text {
+    font-size: 2.4rem;
+  }
+  .table__cell {
+    padding: 25px;
+  }
+
+  @media (min-width: 1200px) {
+    .header__heading {
+      font-size: 4.2rem;
+    }
+
+    .heading__text {
+      font-size: 2rem;
+    }
+
+    .section__tile {
+      font-size: 3.6rem;
+    }
+  }
+}

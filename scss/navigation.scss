@@ -1,33 +1,48 @@
-@use "./reset";
+@import "./reset";
+@import "./colors";
 
-.navigation {
-  margin: 20px;
-  margin-bottom: 30px;
-  background-color: #e098a448;
-  border-radius: 20px;
+.nav {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: $nav-bgc;
+  z-index: 100;
 
-  &__unorderedList {
-    list-style-type: none;
-    text-align: center;
-    line-height: 2;
+  &__wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
   }
 
-  &__link {
-    color: black;
-    text-decoration: none;
+  &__button {
+    display: block;
+    padding: 0 30px;
+    margin-left: auto;
+    line-height: 60px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
 
-    &:visited {
-      color: black;
-    }
+  &__items {
+    display: none;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: $pure-white;
+    transition: color 0.3s, font-size 0.3s;
 
     &:hover {
-      color: black;
-      border-bottom: 1px solid;
-      font-weight: bold;
-    }
-
-    &:active {
-      font-size: 115%;
+      font-size: 1.8rem;
+      color: $complementary;
     }
   }
 }

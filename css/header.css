@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -13,17 +11,10 @@ html {
 }
 
 body {
-  max-width: 1200px;
-  height: 100%;
+  padding: 0;
+  margin: 0 auto;
   line-height: 1.5;
   font-family: "Albert Sans", sans-serif;
-}
-
-input,
-button,
-textarea,
-select {
-  font-family: inherit;
 }
 
 button {
@@ -33,14 +24,11 @@ button {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
   height: auto;
-}
-
-textarea {
-  resize: vertical;
 }
 
 table {
@@ -49,11 +37,37 @@ table {
 }
 
 .header {
-  margin-top: 30px;
+  position: relative;
+  height: 330px;
+  background-image: url(/./images/norway-g09c6b3c29_640.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.header__heading {
-  color: #faebd7;
-  background-color: #e098a4;
+
+.header__bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(7, 129, 129, 0.8235294118);
+}
+
+.header__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  border-radius: 20px;
+  color: #eee;
+}
+
+.header__heading {
+  margin-bottom: 5px;
+  color: #eee;
+  text-shadow: 3px 3px 5px #194242;
+}
+
+.header__heading--color {
+  text-transform: uppercase;
+  color: #194242;
+  text-shadow: 3px 3px 5px #eee;
 }/*# sourceMappingURL=header.css.map */

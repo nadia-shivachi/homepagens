@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -13,17 +11,10 @@ html {
 }
 
 body {
-  max-width: 1200px;
-  height: 100%;
+  padding: 0;
+  margin: 0 auto;
   line-height: 1.5;
   font-family: "Albert Sans", sans-serif;
-}
-
-input,
-button,
-textarea,
-select {
-  font-family: inherit;
 }
 
 button {
@@ -33,14 +24,11 @@ button {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
   height: auto;
-}
-
-textarea {
-  resize: vertical;
 }
 
 table {
@@ -48,52 +36,50 @@ table {
   border-spacing: 0;
 }
 
-.section__heading {
-  background-color: rgba(7, 129, 129, 0.5960784314);
-  color: #faebd7;
-  text-align: center;
-  border-radius: 20px;
+.section {
+  scroll-margin-top: 65px;
+  margin: 60px auto;
+  width: 100%;
+  max-width: 1200px;
 }
-.section__heading:hover {
-  background-color: #e098a4;
+.section__title {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eee;
+  background-color: rgba(7, 129, 129, 0.8235294118);
+}
+.section__paragraf {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
 }
 .section__button {
-  background-color: rgba(228, 27, 27, 0.497);
-  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
   height: 35px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  font-style: italic;
+  font-size: 1.6rem;
   text-align: center;
-  border-radius: 20px;
+  color: #fff;
+  background-color: #810707;
+  transition: width 0.3s, height 0.3s;
 }
 .section__button:hover {
-  background-color: rgba(228, 27, 27, 0.497);
   width: 420px;
   height: 40px;
-  font-weight: bold;
 }
 .section__image {
-  border-radius: 20px;
-  box-shadow: 5px -5px 5px 0px #e098a4;
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  box-shadow: 5px -5px 5px 0px rgba(7, 129, 129, 0.5960784314);
+  box-shadow: 5px -5px 5px 0px #194242;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.section__image:hover {
-  box-shadow: 5px -5px 5px 0px #e098a4;
-}
-.section__div {
-  display: flex;
-  flex-direction: row;
-  margin-left: 30px;
-  justify-content: center;
-  font-style: italic;
+.section__contact {
+  text-align: center;
 }/*# sourceMappingURL=section.css.map */

@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -13,17 +11,10 @@ html {
 }
 
 body {
-  max-width: 1200px;
-  height: 100%;
+  padding: 0;
+  margin: 0 auto;
   line-height: 1.5;
   font-family: "Albert Sans", sans-serif;
-}
-
-input,
-button,
-textarea,
-select {
-  font-family: inherit;
 }
 
 button {
@@ -33,17 +24,58 @@ button {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
   height: auto;
 }
 
-textarea {
-  resize: vertical;
-}
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  background-color: rgba(21, 152, 152, 0.145);
+}
+
+.main {
+  margin: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .nav__items {
+    display: block;
+  }
+  .header {
+    height: 400px;
+    background-image: url(/./images/norway-g6ec0d7579_1920.jpg);
+  }
+  .header__heading {
+    font-size: 3.6rem;
+  }
+  .heading__text {
+    font-size: 1.8rem;
+  }
+  .nav__button {
+    display: none;
+  }
+  .header__text {
+    font-size: 2.4rem;
+  }
+  .table__cell {
+    padding: 25px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  .header__heading {
+    font-size: 4.2rem;
+  }
+  .heading__text {
+    font-size: 2rem;
+  }
+  .section__tile {
+    font-size: 3.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */

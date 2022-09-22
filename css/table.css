@@ -36,12 +36,24 @@ table {
   border-spacing: 0;
 }
 
-.footer {
+.table {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 500px;
+  font-size: 1.6rem;
+}
+.table__caption {
+  text-align: right;
+  caption-side: bottom;
+  font-style: italic;
+}
+.table__cell {
+  padding: 15px;
   text-align: center;
-  padding: 20px 10px;
+  border: 1px solid #194242;
+}
+.table__cell--header {
+  border: 1px solid #fff;
   color: #fff;
   background-color: rgba(7, 129, 129, 0.8235294118);
-}
-.footer__paragraf {
-  font-size: 1.6rem;
-}/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=table.css.map */

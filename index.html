@@ -16,274 +16,173 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/aa27ed4613.js" crossorigin="anonymous"></script>
     <link href="css/header.css" rel="stylesheet">
-        <link href="css/navigation.css" rel="stylesheet">
-        <link href="css/article.css" rel="stylesheet">
-        <link href="css/section.css" rel="stylesheet">
-        <link href="css/table.css" rel="stylesheet">
-        <link href="css/footer.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <script defer src="script/script.js"></script>
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__heading">Nadia Shivachi</h1>
-    </header>
-    <nav class="navigation">
-        <ul class="navigation__unorderedList">
-            <li>
-                <a class="navigation__link" href="#Who_I_am"> Who I am</a>
-            </li>
-            <li>
-                <a class="navigation__link" href="#Childhood"> more about Childhood</a>
-            </li>
-            <li>
-                <a class="navigation__link" href="#Study">more about Study</a>
-            </li>
-            <li>
-                <a class="navigation__link" href="#Work">more about Work</a>
-            </li>
-            <li>
-                <a class="navigation__link" href="#Life">more about Life</a>
-            </li>
-        </ul>
+    <nav class="nav">
+        <div class="nav__wrapper">
+            <button class="nav__button"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="nav__items">
+                <a class="nav__item" href="#">Home</a>
+                <a class="nav__item" href="#about_me">About me</a>
+                <a class="nav__item" href="#skills">Skills</a>
+                <a class="nav__item" href="#work">Work experience</a>
+                <a class="nav__item" href="#study">Study and education</a>
+                <a class="nav__item" href="#contact">Contact</a>
+            </div>
+        </div>
     </nav>
-    <main>
-        <article class="article">
-            <h2 class="article__heading" id="Who_I_am">Who I am?</h2>
+    <header class="header">
+        <div class="header__bg"></div>
+        <div class="header__text">
+            <h1 class="header__heading">Nadia <span class="header__heading--color">Shivachi</span></h1>
+            <p class="heading__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section" id="about_me">
+            <h2 class="section__title">About me</h2>
             <p>
-                <img class="article__image" src="https://i.postimg.cc/ncCKKJbX/Ilnicka-Nadia-3.jpg" width="300"
-                    height="300" alt="Nadia Shivachi">
+                <img class="section__image" src="https://i.postimg.cc/ncCKKJbX/Ilnicka-Nadia-3.jpg" width="300"
+                    alt="Nadia Shivachi">
             </p>
-            <ul class="article__unorderedList">
-                <li>
-                    IT Project Manager
-                </li>
-                <li>
-                    Future Front-end Developer
-                </li>
-                <li>
-                    Poet
-                </li>
-                <li>
-                    Mom
-                </li>
-                <li>
-                    Wife
-                </li>
-            </ul>
-            <section class="section">
-                <h2 class="section__heading" id="Childhood">Childhood</h2>
-                <p>
-                    I was born and raised in <strong>Kazakhstan</strong>, in a village called Chkalovo (<i>Чкалово</i>),
-                    located
-                    300
-                    km from the capital of the country Nur-Sułtan, in the north.
-                </p>
-                <p>
-                    From an early age, I started writing poetry. The oldest poems I have kept are from 2001, I was 9 at
-                    the
-                    time.
-                    Until now I am writing in my native language - Russian.
-                </p>
-                <div lang="rus-RUS" class="section__div">
-                    <p>
-                        <strong>Море (2005)</strong><br>
-                        Какое спокойное море сегодня!<br>
-                        Нет в нем тревог и печали,<br>
-                        Белые и шумные чайки<br>
-                        Над ним не громко кричали.<br>
-                        А только вчера оно так бушевало!<br>
-                        Так разбивало в дребезги то,<br>
-                        Что долго до этого тишиной создавало.<br>
-                        И видно создать, увы, не смогло...<br>
-                        Волною своей разбивало надежды<br>
-                        И веру в то, что настал долгий мир.<br>
-                        И синие воды свои, как и прежде,<br>
-                        На спокойном причале своем разлил.<br>
-                        Как страшно всем было, смотря на него,<br>
-                        В одно лишь мгновенье вдруг стало темно.<br>
-                        И сразу пошли проливные дожди:<br>
-                        Воды свои по земле понесли.<br>
-                        Не шторм это был, и не цунами,<br>
-                        Это природа злая была,<br>
-                        А на утро причала мы не узнали:<br>
-                        Утопила красу его злая волна.<br>
-                        Но сейчас тишина здесь, спокойно и тихо.<br>
-                        Сижу на песке я, в море смотря,<br>
-                        С этого места всю глубь его видно,<br>
-                        Ту, где шумела, а после ушла...<br>
-                    </p>
-                    <p>
-                        <strong>Где ты? (2007)</strong><br>
-                        Пулеметы молчат давно,<br>
-                        И на фронте нет никого,<br>
-                        Только ты дорогой<br>
-                        Не приходишь домой,<br>
-                        Не приходишь ко мне всё равно.<br>
-                        Что случилось с тобой - не пойму.<br>
-                        Уже год как тебя я жду!<br>
-                        Не воюет никто,<br>
-                        Только ты, всё равно,<br>
-                        Где-то там, от меня далеко...<br>
-                        Много длинных ночей не сплю,<br>
-                        Лишь в окно и на фото смотрю.<br>
-                        Верю я, что придешь<br>
-                        И посмотришь в него,<br>
-                        В это мокрое от слез окно.<br>
-                        А сын давно уже спит,<br>
-                        Во сне на тебя он глядит!<br>
-                        Знаю, помнит тебя,<br>
-                        Только возле меня<br>
-                        О тебе он гордо молчит!<br>
-                        Приходил к нам твой лучший друг -<br>
-                        У него нет обеих рук...<br>
-                        Пусть без рук он сейчас,<br>
-                        Но с любимой семьей...<br>
-                        Возвращайся, мой милый, домой!
-                    </p>
-                    <p>
-                        <strong>Расстояние (2010)</strong><br>
-                        Зачем мы научились скучать <br>
-                        По тем кто далеко, кто не с нами?<br>
-                        И разговоров минутных ждать<br>
-                        И узнавать, а по нам ли скучали.<br>
-                        Зачем сотни раз открывать альбом<br>
-                        Привыкли руки в осенний вечер<br>
-                        И вспоминать о таком родном<br>
-                        Том, что на фото увековечен.<br>
-                        Зачем м ждать научились встреч<br>
-                        Таких коротких и очень редких.<br>
-                        Чтобы потом еще долго беречь<br>
-                        Цветов сухие бутоны, открытки.<br>
-                        Ну а зачем научились любить<br>
-                        Родных улыбки и глаз усталость<br>
-                        Ведь для того чтобы вместе быть<br>
-                        Нужна всего лишь какая-то малость.<br>
-                    </p>
-                </div>
-                <p>
-                    Each of my parents made every effort to bring up the best qualities in me. Dad taught me to do all
-                    kinds
-                    of
-                    renovation works in the house and yard, to take care of domestic animals.
-                    Mom taught me to cook, sew. She showed me the beauty of literature. Already at the age of 15, I was
-                    delighted
-                    with
-                    <b>Dostoevsky's</b> depressive and very deep novels.
-                </p>
-            </section>
-            <section class="section">
-                <h2 class="section__heading" id="Study">Study</h2>
-                <p>
-                    At the age of 18, after graduating from high school, I successfully passed the entrance exams to
-                    study
-                    in
-                    Poland.
-                    After a year of <em>"compensatory"</em> study at the University of Rzeszów, I started my studies at
-                    the
-                    Warsaw
-                    School of
-                    Economics.
-                </p>
-                <p>
-                    During my studies, I was very interested in football. I was a fan of FC Barcelona.
-                    I had the opportunity to meet the entire Polish national team during <strong>2018 FIFA World Cup
-                        qualification</strong>.
-                </p>
-                <p>
-                    <img class="section__image js-image" src="https://i.postimg.cc/JnCDkf3B/IMG-20160831-173342.jpg"
-                        width="500" height="450" alt="photo with the Polish national football team"
-                        title="photo with the Polish national football team">
-                </p>
-                <button class="section__button js-button"> Click to see the next photo </button>
-                <p>
-                    In 2017, I graduated with a "very good" master's degree in Project Management.
-                </p>
-                <p>
-                    I started working during my undergraduate studies. I earned my first money by writing studies for
-                    Russian
-                    philology
-                    students from my favorite Dostoyevsky's <em>"The Karamazovy Brothers"</em>. For the first money I
-                    earned, I
-                    bought skates.
-                    <b>(I can't ride them until now)</b>.
-                </p>
-            </section>
-            <section class="section">
-                <h2 class="section__heading" id="Work">Work</h2>
-                <p>
-                    During 10 years of my professional activity, I have managed to work:
-                </p>
-                <table class="table">
-                    <caption class="table__caption">My work experience </caption>
-                    <thead>
-                        <tr class="table__row">
-                            <th class="table__cell table__cell--header" scope="col">When</th>
-                            <th class="table__cell table__cell--header" scope="col">Where</th>
-                            <th class="table__cell table__cell--header" scope="col">Position</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table__row">
-                            <th class="table__cell table__cell--header" scope="row">2012</th>
-                            <td class="table__cell">Embassy of the Republic of Kazakhstan</td>
-                            <td class="table__cell">Ambassador Assistant</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th class="table__cell table__cell--header" scope="row">2014-2015</th>
-                            <td class="table__cell">Polish-Kazakh Chamber of Commerce and Industry</td>
-                            <td class="table__cell">International Projects Implementation Specialist</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th class="table__cell table__cell--header" scope="row">2016</th>
-                            <td class="table__cell">Embassy of the Republic of Kazakhstan</td>
-                            <td class="table__cell">Project Manager</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th class="table__cell table__cell--header" scope="row">2016-2017</th>
-                            <td class="table__cell">Dimension Data</td>
-                            <td class="table__cell">Project Manager</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th class="table__cell table__cell--header" scope="row">2018-2019</th>
-                            <td class="table__cell">Atende</td>
-                            <td class="table__cell">Project Administrator</td>
-                        </tr>
-                        <tr class="table__row">
-                            <th class="table__cell table__cell--header" scope="row">2019 - now</th>
-                            <td class="table__cell">PwC IT services</td>
-                            <td class="table__cell">Senior IT Project Manager</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>
-                    I'm currently on maternity leave. It was thanks to the fact that I became a mother that I <b>decided
-                        to
-                        change</b> my
-                    career path. (<em>ask for details on priv :)</em>)
-                </p>
-            </section>
-            <section class="section">
-                <h2 class="section__heading" id="Life">Life</h2>
-                <p>
-                    I have been living in Warsaw for 12 years already. I have a husband, a son, and a cat, Sheldon. Due
+            <p class="section__paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem placeat, sed
+                ipsam
+                fugit dolore quisquam esse assumenda sunt voluptatum nulla. Eaque similique illum maiores veniam
+                delectus
+                sapiente deleniti, tempore iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id excepturi distinctio consectetur consequatur et, velit eaque impedit porro accusantium expedita ab sapiente quas assumenda aperiam nemo qui, fuga vero tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto mollitia nulla dolore quis. In ex rem, quam eaque voluptate omnis ab tempora repellat blanditiis necessitatibus. Quasi nostrum mollitia id sit?</p>
+            <p class="section__paragraf">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione sint
+                inventore
+                nesciunt, autem deleniti tempore quam rerum ut ipsam maiores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aut at ipsa sapiente omnis accusantium nostrum laborum animi laboriosam placeat voluptatem voluptas quasi, impedit nisi natus provident consequatur deserunt ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iusto quibusdam cupiditate? Corrupti voluptatibus id harum. Delectus magnam, consequatur ipsum error officiis repudiandae expedita similique architecto eius, reprehenderit facere repellat.</p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section__title">skills</h2>
+            <p class="section__paragraf">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias commodi nulla quod, numquam quibusdam dolorem cumque id atque unde non repellat? Tempora impedit veniam temporibus? Architecto velit magni nobis eveniet provident ea aliquam cumque laudantium, perferendis illo aliquid! Nulla est ipsam, illum omnis nihil obcaecati natus blanditiis accusantium nemo minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, repellendus? Nam consequatur, alias vitae, tempore ab est repellat beatae a dolores illo sit numquam vero aliquid expedita reprehenderit voluptate ut!
+            </p>
+            
+        </section>
+        <section class="section" id="study">
+            <h2 class="section__title">Study and education</h2>
+            <p class="section__paragraf">
+                At the age of 18, after graduating from high school, I successfully passed the entrance exams to
+                study
+                in
+                Poland.
+                After a year of <em>"compensatory"</em> study at the University of Rzeszów, I started my studies at
+                the
+                Warsaw
+                School of
+                Economics.
+            </p>
+            <p class="section__paragraf">
+                During my studies, I was very interested in football. I was a fan of FC Barcelona.
+                I had the opportunity to meet the entire Polish national team during <strong>2018 FIFA World Cup
+                    qualification</strong>.
+            </p>
+            <p>
+                <img class="section__image js-image" src="https://i.postimg.cc/JnCDkf3B/IMG-20160831-173342.jpg"
+                    width="500" alt="photo with the Polish national football team"
+                    title="photo with the Polish national football team">
+            </p>
+            <button class="section__button js-button"> Click to see the next photo </button>
+            <p class="section__paragraf">
+                In 2017, I graduated with a "very good" master's degree in Project Management.
+            </p>
+            <p class="section__paragraf">
+                I started working during my undergraduate studies. I earned my first money by writing studies for
+                Russian
+                philology
+                students from my favorite Dostoyevsky's <em>"The Karamazovy Brothers"</em>. For the first money I
+                earned, I
+                bought skates.
+                <b>(I can't ride them until now)</b>.
+            </p>
+        </section>
+        <section class="section" id="work">
+            <h2 class="section__title">Work experience</h2>
+            <p class="section__paragraf">
+                During 10 years of my professional activity, I have managed to work:
+            </p>
+            <table class="table">
+                <caption class="table__caption">My work experience </caption>
+                <thead>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">When</th>
+                        <th class="table__cell table__cell--header" scope="col">Where</th>
+                        <th class="table__cell table__cell--header" scope="col">Position</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">2012</th>
+                        <td class="table__cell">Embassy of the Republic of Kazakhstan</td>
+                        <td class="table__cell">Ambassador Assistant</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">2014-2015</th>
+                        <td class="table__cell">Polish-Kazakh Chamber of Commerce and Industry</td>
+                        <td class="table__cell">International Projects Implementation Specialist</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">2016</th>
+                        <td class="table__cell">Embassy of the Republic of Kazakhstan</td>
+                        <td class="table__cell">Project Manager</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">2016-2017</th>
+                        <td class="table__cell">Dimension Data</td>
+                        <td class="table__cell">Project Manager</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">2018-2019</th>
+                        <td class="table__cell">Atende</td>
+                        <td class="table__cell">Project Administrator</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">2019 - now</th>
+                        <td class="table__cell">PwC IT services</td>
+                        <td class="table__cell">Senior IT Project Manager</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="section__paragraf">
+                I'm currently on maternity leave. It was thanks to the fact that I became a mother that I <b>decided
                     to
-                    the
-                    GDPR,
-                    I
-                    will only share a photo of the cat :)
-                </p>
-                <p>
-                    <img class="section__image" src="https://i.postimg.cc/DzjyPtKz/20200307-100525.jpg" width="500"
-                        height="350" alt="kot Sheldon">
-                </p>
-            </section>
-        </article>
+                    change</b> my
+                career path. (<em>ask for details on priv :)</em>)
+            </p>
+        </section>
+        <section class="section" id="contact">
+            <h2 class="section__title">Contact</h2>
+            <div class="section__contact">
+                <p class="section__paragraf"><i class="fas fa-phone"></i>
+                <a href="tel:+48 791 085 384">+48 791 085 384</a></p>
+                <p class="section__paragraf"><i class="fas fa-at"></i>
+                    <a href="mailto:nadia.shivachi@gmail.com">nadia.shivachi@gmail.com</a>        
+                    </p>
+                <p class="section__paragraf"><i class="fa-brands fa-linkedin-in"></i>
+                    <a href="https://www.linkedin.com/in/nadia-shivachi-9b44a8133/">LinkedIn</a>
+                    </p>
+                <p class="section__paragraf"><i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/nadia-shivachi">GitHub</a>
+                    </p>
+                <p class="section__paragraf"><i class="fa-solid fa-location-dot"></i>Warsaw, Poland</p>                
+            </div>
+        </section>
     </main>
     <footer class="footer">
-        <p>
-            © Wszelkie prawa zastrzeżone
+        <p class="footer__paragraf">
+            &copy; 2022 Nadia Shivachi
         </p>
 
     </footer>
