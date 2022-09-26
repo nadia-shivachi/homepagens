@@ -70,4 +70,9 @@ table {
   text-transform: uppercase;
   color: #194242;
   text-shadow: 3px 3px 5px #eee;
+}
+
+.heading__text--italic {
+  margin-top: 0;
+  font-style: italic;
 }/*# sourceMappingURL=header.css.map */
