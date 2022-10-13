@@ -1,4 +1,3 @@
-@import "./reset";
 @import "./colors";
 
 .table {
@@ -14,7 +13,7 @@
   }
 
   &__cell {
-    padding: 15px;
+    padding: 7px;
     text-align: center;
     border: 1px solid $secondary-special;
 
