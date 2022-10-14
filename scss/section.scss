@@ -51,6 +51,16 @@
     max-width: 100%;
     box-shadow: 5px -5px 5px 0px $secondary-special;
     object-fit: cover;
+
+    &--special {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 800px;
+      width: 100%;
+      box-shadow: 5px -5px 5px 0px $secondary-special;
+      object-fit: cover;
+    }
   }
 
   &__contact {
@@ -85,4 +95,37 @@
   &__link:hover::after {
     height: 100%;
   }
+
+  &__specialParagraf {
+    margin-top: 50px;
+    padding: 50px;
+    color: $pure-white;
+    list-style-position: inside;
+    border: 1px solid $complementary;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }
+  
+  &__specialList {
+    list-style: none;
+  
+    &--item {
+      padding: 20px;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.list__title {
+  margin-top: 50px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.list__items {
+  margin: auto;
+  max-width: 500px;
+  width: 100%;
+  line-height: 40px;
+  font-size: 2rem;
 }

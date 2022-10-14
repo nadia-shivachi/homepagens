@@ -18,7 +18,7 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/navigation.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/section_diploms.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link href="css/table.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -38,7 +38,6 @@
             <a class="nav__item" href="#work">Work experience</a>
             <a class="nav__item" href="#contact">Contact</a>
         </div>
-        </div>
     </nav>
     <header class="header">
         <div class="header__bg"></div>
@@ -54,75 +53,140 @@
         <section class="section" id="about_me">
             <h2 class="section__title">About me</h2>
             <p>
-                <img class="section__image" src="https://i.postimg.cc/ncCKKJbX/Ilnicka-Nadia-3.jpg" width="300"
-                    alt="Nadia Shivachi">
+                <img class="section__image tilt-in-right-1" src="https://i.postimg.cc/ncCKKJbX/Ilnicka-Nadia-3.jpg"
+                    width="300" alt="Nadia Shivachi">
             </p>
-            <p class="section__paragraf">I was born and grew up in Kazachstan in a small "Polish" village calls <span
-                    class="section__link"><a
-                        href="https://www.google.com/maps/place/Czka%C5%82owo+150000,+Kazachstan/@53.6203718,70.4144083,8844m/data=!3m1!1e3!4m5!3m4!1s0x424d46ceedf1f1c3:0x648e898c4f383226!8m2!3d53.6213033!4d70.4465048"
-                        alt="geolocation of Chkalovo" target="_blank">Chkalovo</a>.</span>
-
+            <p class="section__paragraf">I was born and grew up in Kazachstan in a small "Polish" village calls
+                Chkalovo.</p>
+            <div>
+                <img class="section__image--special" src="/./images/2560px-BlankMap-Eurasia.svg.png"
+                    alt="Transparent map of Eurasia with colorful borders of Kazakhstan and Poland">
+            </div>
             <p class="section__paragraf">In 2010, I came to Poland to study: 1 year at the University of Rzeszow, and
                 them 6 years (bachelor's and master's degrees) at the Warsaw School of Economics.
                 During my studies I completed an additional interdisciplinary path "Coaching competencies". </p>
-
             <p class="section__paragraf">I started working already in 2012.
                 I have worked at the Embassy of Kazakhstan in Poland, the Chamber of Commerce and Industry, Dimension
                 Data in two positions, Atende S.A., and I'm currently working at PwC IT Services from 2019.
             </p>
-            <h3>My strengths and assets as a Junior Frontend Developer</h3>
-            <ul class="section__paragraf">
-                <li>I know the IT world, how projects work and what is expected of the team.</li>
-                <li>I can read contracts and documentation, understand requirements.</li>
-                <li>I learn quickly and a lot. I'm independent, but I also know when it is better come with a question
-                    to a tech-mentor than to waste precious time project time to learn (after all, the client pays for
-                    the work).
-                </li>
-                <li>I do not require micro-management, I'm perfectly capable of managing my time and tasks.</li>
-            </ul>
         </section>
-
         <section class="section" id="skills">
             <h2 class="section__title">skills</h2>
-            <h3>Technologies</h3>
-            <ul class="section__paragraf">
-                <li>HTML</li>
-                <li>CSS, SCSS</li>
-                <li>Java Script</li>
-            </ul>
-            <h3>Language skills</h3>
-            <ul class="section__paragraf">
-                <li>Polish (very good)</li>
-                <li>Russian (native)</li>
-                <li>English (good)</li>
-                <li>Ukranian (good)</li>
-                <li>Kazakh, Turkish (forgotten, unused for 12 years)</li>
-            </ul>
-            <h3>Software skills</h3>
-            <ul class="section__paragraf">
-                <li>Jira</li>
-                <li>Azure DevOps</li>
-                <li>Microsoft Visual Studio Team Services (VSTS)</li>
-                <li>Confluence</li>
-                <li>MS Excel</li>
-                <li>PowerPoint</li>
-            </ul>
-            <h3>Project methodologies</h3>
-            <ul class="section__paragraf">
-                <li>Agile</li>
-                <li>PRINCE2</li>
-                <li>Kanban</li>
-                <li>SCRUM</li>
-            </ul>
-            <h3>Persona skills</h3>
-            <ul class="section__paragraf">
-                <li>Team management (10+ people)</li>
-                <li>Independence and reliability</li>
-                <li>The ability to effectively plan and prioritize tasks</li>
-                <li>Communicability and ease in establishing business contacts</li>
-                <li>Experience of working in an international environment</li>
-                <li>"Cool mind" and adequate judgment</li>
-            </ul>
+            <div class="animation__list">
+                <div class="list__card">
+                    <div class="list__img list__img--tech">
+                        <div class="list__text">
+                            <h3 class="list__title">Technologies</h3>
+                            <ul class="list__items fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>HTML</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>CSS, SCSS</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Java Script</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="list__card">
+                    <div class="list__img list__img--project">
+                        <div class="list__text">
+                            <h3 class="list__title ">Project methodologies</h3>
+                            <ul class="list__items fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Agile
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>PRINCE2
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Kanban
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>SCRUM
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="list__card">
+                    <div class="list__img list__img--lang">
+                        <div class="list__text">
+                            <h3 class="list__title">Language skills</h3>
+                            <ul class="list__items fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Polish (very
+                                    good)</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Russian
+                                    (native)</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>English
+                                    (good)</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Ukranian
+                                    (good)</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Kazakh,
+                                    Turkish (forgotten,
+                                    unused for 12 years)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animation__list">
+
+                <div class="list__card">
+                    <div class="list__img list__img--soft">
+                        <div class="list__text">
+                            <h3 class="list__title">Computer skills</h3>
+                            <ul class="list__items fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span><span
+                                        class="fa-li"><i class="fa-solid fa-check-square"></i></span>Jira</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span><span
+                                        class="fa-li"><i class="fa-solid fa-check-square"></i></span>Azure DevOps
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span><span
+                                        class="fa-li"><i class="fa-solid fa-check-square"></i></span>Microsoft
+                                    Visual Studio
+                                    Team Services (VSTS)
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span><span
+                                        class="fa-li"><i class="fa-solid fa-check-square"></i></span>Confluence</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span><span
+                                        class="fa-li"><i class="fa-solid fa-check-square"></i></span>MS Excel</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span><span
+                                        class="fa-li"><i class="fa-solid fa-check-square"></i></span>PowerPoint</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="list__card">
+                    <div class="list__img list__img--personal">
+                        <div class="list__text">
+                            <h3 class="list__title ">Personal skills</h3>
+                            <ul class="list__items fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Team
+                                    management (10+
+                                    people)
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Independence and
+                                    reliability
+                                </li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>The
+                                    ability to
+                                    effectively
+                                    plan and prioritize tasks</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Communicability
+                                    and
+                                    ease in
+                                    establishing business contacts</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Experience of
+                                    working
+                                    in an
+                                    international environment</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>"Cool
+                                    mind" and
+                                    adequate
+                                    judgment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </section>
         <section class="section" id="study">
             <h2 class="section__title">Study and education</h2>
@@ -170,30 +234,12 @@
                     </tr>
                 </tbody>
             </table>
-            <h3>Certificates</h3>
+            <h3 class="section__heading">Certificates</h3>
             <ul class="section__paragraf">
                 <li>AgilePM® Foundation i Practitioner, APMG International</li>
                 <li>PRINCE2® Foundation, AXELOS Limited</li>
                 <li>ITIL4 Foundation, AXELOS Limited</li>
             </ul>
-
-            <!-- <section class="section__diploms">
-                <div class="diploms__card">
-                    <div class="diploms__img diploms__img--one"></div>
-                    <div class="diploms__text diploms__text--one">
-                        <h3>Warsaw School of Economics</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam veritatis rem sapiente
-                            explicabo
-                            culpa saepe quidem ullam? Quaerat, quasi earum?</p>
-                    </div>
-                </div>
-                <p>
-                    <img class="section__image js-image" src="https://i.postimg.cc/JnCDkf3B/IMG-20160831-173342.jpg"
-                        width="500" alt="photo with the Polish national football team"
-                        title="photo with the Polish national football team">
-                </p>
-                <button class="section__button js-button"> Click to see the next photo </button> -->
-
         </section>
         <section class="section" id="work">
             <h2 class="section__title">Work experience</h2>
@@ -261,6 +307,24 @@
                 creativity.</p>
             <p class="section__paragraf">My experience in IT project management and extensive knowledge of business
                 relations provide the <strong>perfect foundation</strong> to start working in programming today.</p>
+            <div class="section__specialParagraf">
+                <h3 class="section__heading" style="text-align: center;">My strengths and assets as a Junior Frontend
+                    Developer</h3>
+                <ul class="section__specialList fa-sharp">
+                    <li class="section__specialList--item"> <span><i class="fa-solid fa-square-check"></i></span> I know
+                        the IT world, how projects work and what is expected of the team.</li>
+                    <li class="section__specialList--item"> <span><i class="fa-solid fa-square-check"></i></span> I can
+                        read contracts and documentation, understand requirements.</li>
+                    <li class="section__specialList--item"> <span><i class="fa-solid fa-square-check"></i></span> I
+                        learn quickly and a lot. I'm independent, but I also know when it is better come with a question
+                        to a tech-mentor than to waste precious time project time to learn (after all, the client pays
+                        for
+                        the work).
+                    </li>
+                    <li class="section__specialList--item"> <span><i class="fa-solid fa-square-check"></i></span> I do
+                        not require micro-management, I'm perfectly capable of managing my time and tasks.</li>
+                </ul>
+            </div>
         </section>
         <section class="section" id="contact">
             <h2 class="section__title">Contact</h2>
@@ -272,10 +336,11 @@
                     <a href="mailto:nadia.shivachi@gmail.com">nadia.shivachi@gmail.com</a>
                 </p>
                 <p class="section__paragraf section__link"><i class="fa-brands fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/nadia-shivachi-9b44a8133/">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/nadia-shivachi-9b44a8133/" target="_blank"
+                        rel="noreferrer noopener">LinkedIn</a>
                 </p>
                 <p class="section__paragraf section__link"><i class="fa-brands fa-github"></i>
-                    <a href="https://github.com/nadia-shivachi">GitHub</a>
+                    <a href="https://github.com/nadia-shivachi" target="_blank" rel="noreferrer noopener">GitHub</a>
                 </p>
                 <p class="section__paragraf"><i class="fa-solid fa-location-dot"></i>Warsaw, Poland</p>
             </div>
