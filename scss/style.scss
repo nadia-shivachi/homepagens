@@ -1,5 +1,42 @@
-@import "./reset";
 @import "./colors";
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: "Albert Sans", sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 body {
   background-color: $bgcolor;
@@ -22,28 +59,39 @@ body {
   }
 
   .header__heading {
-    font-size: 3.6rem;
+    font-size: 4.6rem;
   }
 
   .heading__text {
     font-size: 1.8rem;
+
+    .heading__text--italic {
+      font-size: 1.6rem;
+    }
   }
   .nav__button {
     display: none;
   }
   .header__text {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+  }
+  .heading__text--italic {
+    font-size: 1.8rem;
   }
   .table__cell {
-    padding: 25px;
+    padding: 15px;
   }
 
   @media (min-width: 1200px) {
     .header__heading {
-      font-size: 4.2rem;
+      font-size: 5.4rem;
     }
 
     .heading__text {
+      font-size: 3.2rem;
+    }
+
+    .heading__text--italic {
       font-size: 2rem;
     }
 
