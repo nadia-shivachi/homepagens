@@ -30,7 +30,6 @@
   }
 
   &__item {
-
     padding: 0 30px;
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -40,6 +39,10 @@
     &:hover {
       font-size: 1.8rem;
       color: $complementary;
+    }
+
+    &--flag {
+      margin-top: 10px;
     }
   }
 }

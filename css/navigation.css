@@ -35,4 +35,7 @@
 .nav__item:hover {
   font-size: 1.8rem;
   color: #810707;
+}
+.nav__item--flag {
+  margin-top: 10px;
 }/*# sourceMappingURL=navigation.css.map */
