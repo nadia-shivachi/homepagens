@@ -37,5 +37,6 @@
   color: #810707;
 }
 .nav__item--flag {
-  margin-top: 10px;
+  margin-top: 20px;
+  max-width: 25px;
 }/*# sourceMappingURL=navigation.css.map */
